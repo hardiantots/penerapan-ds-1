@@ -46,7 +46,7 @@ Setup environment:
 Berikut ini adalah beberapa tahapan yang diperlukan untuk menyiapkan environment agar nantinya file dapat dijalankan dengan baik:
 1. Clone Repository terlebih dahulu
 ```
-git clone https://github.com/harrdi/Belajar-Penerapan-Data-Science
+git clone https://github.com/hardiantots/penerapan-ds-1
 ```
 
 2. Install Dependencies yang diperlukan
