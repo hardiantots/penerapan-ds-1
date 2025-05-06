@@ -144,35 +144,27 @@ Beberapa hal yang ditampilkan dalam business dashboard yang telah dibuat yaitu:
 ## Conclusion
 
 1. Faktor-Faktor yang mempengaruhi Attrition Rate
-<br>
-Faktor risiko tinggi attrition utamanya berasal dari karyawan muda, bergaji rendah, berstatus lajang, serta yang sering lembur. Job level rendah dan kepuasan terhadap pekerjaan maupun lingkungan kerja yang rendah juga memperbesar kemungkinan mereka untuk keluar. Selain itu, jarak ke kantor yang terlalu jauh justru berkorelasi dengan attrition yang lebih tinggi, kemungkinan karena kurangnya komitmen atau kenyamanan jangka panjang. Sebaliknya, faktor-faktor protektif seperti senioritas, tidak lembur, serta tingkat kepuasan dan pendapatan yang tinggi cenderung menurunkan risiko attrition.
+    Faktor risiko tinggi attrition utamanya berasal dari karyawan muda, bergaji rendah, berstatus lajang, serta yang sering lembur. Job level rendah dan kepuasan terhadap pekerjaan maupun lingkungan kerja yang rendah juga memperbesar kemungkinan mereka untuk keluar. Selain itu, jarak ke kantor yang terlalu jauh justru berkorelasi dengan attrition yang lebih tinggi, kemungkinan karena kurangnya komitmen atau kenyamanan jangka panjang. Sebaliknya, faktor-faktor protektif seperti senioritas, tidak lembur, serta tingkat kepuasan dan pendapatan yang tinggi cenderung menurunkan risiko attrition.
 
 2. Hasil Pembuatan Model
-<br>
-Berdasarkan hasil percobaan terhadap 3 model yang berbeda dengan menerapkan GridSearch untuk mengoptimalkan parameter pada setiap jenis model, diperoleh hasil akhir bahwa Logistic Regression ('clf__C': 0.1, 'clf__class_weight': 'balanced', 'clf__penalty': 'l2') memperoleh hasil terbaik dengan Akurasi 77.8%, Precision 43.3%, Recall 69.2%, dan F1-Score 52.5% (Lebih seimbang dibandingkan 2 model lainnya). Hasil evaluasi metrik memperlihatkan bahwa model sebenarnya masih belum memperoleh hasil yang baik dikarenakan faktor imbalanced class pada variable target (83% karyawan tidak keluar dari perusahaan & 17% karyawan keluar dari perusahaan).
+    Berdasarkan hasil percobaan terhadap 3 model yang berbeda dengan menerapkan GridSearch untuk mengoptimalkan parameter pada setiap jenis model, diperoleh hasil akhir bahwa Logistic Regression ('clf__C': 0.1, 'clf__class_weight': 'balanced', 'clf__penalty': 'l2') memperoleh hasil terbaik dengan Akurasi 77.8%, Precision 43.3%, Recall 69.2%, dan F1-Score 52.5% (Lebih seimbang dibandingkan 2 model lainnya). Hasil evaluasi metrik memperlihatkan bahwa model sebenarnya masih belum memperoleh hasil yang baik dikarenakan faktor imbalanced class pada variable target (83% karyawan tidak keluar dari perusahaan & 17% karyawan keluar dari perusahaan).
 
 3. Dashboard
-<br>
-Dashboard yang telah dibuat mencakup beberapa visualisasi dan informasi untuk menyajikan ringkasan metrik utama seperti attrition rate sebesar 12.18%, jumlah karyawan aktif, rata-rata pengalaman kerja dan pendapatan bulanan. Selain itu, terdapat analisis mendalam terhadap faktor-faktor yang memengaruhi attrition seperti lembur, status pernikahan, keseimbangan kerja-hidup, dan kepuasan kerja. Visualisasi juga menunjukkan bagaimana departemen, peran pekerjaan, dan jenjang jabatan berdampak pada tingkat keluar masuknya karyawan. Faktor lingkungan seperti jarak ke tempat kerja, frekuensi perjalanan dinas, dan durasi bekerja di posisi yang sama turut dievaluasi. Data juga dianalisis berdasarkan karakteristik demografis seperti usia dan penghasilan untuk mengidentifikasi kelompok berisiko tinggi. Keseluruhan dashboard memberikan gambaran komprehensif mengenai pola attrition karyawan dan indikator-indikator utama yang menyertainya.
+    Dashboard yang telah dibuat mencakup beberapa visualisasi dan informasi untuk menyajikan ringkasan metrik utama seperti attrition rate sebesar 12.18%, jumlah karyawan aktif, rata-rata pengalaman kerja dan pendapatan bulanan. Selain itu, terdapat analisis mendalam terhadap faktor-faktor yang memengaruhi attrition seperti lembur, status pernikahan, keseimbangan kerja-hidup, dan kepuasan kerja. Visualisasi juga menunjukkan bagaimana departemen, peran pekerjaan, dan jenjang jabatan berdampak pada tingkat keluar masuknya karyawan. Faktor lingkungan seperti jarak ke tempat kerja, frekuensi perjalanan dinas, dan durasi bekerja di posisi yang sama turut dievaluasi. Data juga dianalisis berdasarkan karakteristik demografis seperti usia dan penghasilan untuk mengidentifikasi kelompok berisiko tinggi. Keseluruhan dashboard memberikan gambaran komprehensif mengenai pola attrition karyawan dan indikator-indikator utama yang menyertainya.
 
 ### Rekomendasi Action Items
 
 1. Kurangi Beban Lembur dan Perbaiki Work‑Life Balance
-<br>
-Terapkan kebijakan lembur terukur (misalnya batas maksimum jam ekstra) dan program fleksibilitas (remote day, jam kerja fleksibel) untuk menurunkan kelelahan dan stres.
+    Terapkan kebijakan lembur terukur (misalnya batas maksimum jam ekstra) dan program fleksibilitas (remote day, jam kerja fleksibel) untuk menurunkan kelelahan dan stres.
 
 2. Fokus Retensi Karyawan Entry‑Level dan yang Baru Bergabung (< 5 tahun)
-<br>
-Buat program onboarding dan mentoring intensif, plus jalur karier yang jelas agar karyawan baru merasa cepat “nyambung” dan termotivasi.
+    Buat program onboarding dan mentoring intensif, plus jalur karier yang jelas agar karyawan baru merasa cepat “nyambung” dan termotivasi.
 
 3. Penyesuaian Kompensasi Berdasarkan JobLevel dan Pasar
-<br>
-Lakukan review gaji secara berkala terutama untuk level rendah dan role teknis/marketing yang menunjukkan tren attrition tinggi, agar tetap kompetitif dan adil.
+    Lakukan review gaji secara berkala terutama untuk level rendah dan role teknis/marketing yang menunjukkan tren attrition tinggi, agar tetap kompetitif dan adil.
 
 4. Perkuat Kepuasan Kerja & Lingkungan
-<br>
-Jalankan survei rutin untuk mengidentifikasi titik rentan (lingkungan, budaya, kebutuhan fasilitas) dan tanggapi dengan perbaikan (penataan ruang, program wellbeing, social events).
+    Jalankan survei rutin untuk mengidentifikasi titik rentan (lingkungan, budaya, kebutuhan fasilitas) dan tanggapi dengan perbaikan (penataan ruang, program wellbeing, social events).
 
 5. Segmentasi Program Retensi Berdasarkan Profil Risiko
-<br>
-Targetkan intervensi khusus untuk karyawan muda, lajang, dan yang sering melakukan business travel (misalnya paket benefit keluarga, dukungan relokasi, atau cuti tambahan) guna mengurangi beban non‑moneter yang memicu keluarnya karyawan tersebut dari perusahaan.
+    Targetkan intervensi khusus untuk karyawan muda, lajang, dan yang sering melakukan business travel (misalnya paket benefit keluarga, dukungan relokasi, atau cuti tambahan) guna mengurangi beban non‑moneter yang memicu keluarnya karyawan tersebut dari perusahaan.
